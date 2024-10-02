@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Add your background image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #4CAF50; /* Green color for the navigation bar */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s; /* Smooth color transition on hover */
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Change color on hover */
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .home_dish {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .dish {
+            width: 300px;
+            margin: 2%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 8px 8px 5px rgb(86, 81, 81);
+            flex-basis: 25%;
+            transition: transform .3s;
+
+            
+        }
+        .dish:hover{
+            transform: scale(1.1);
+        }
+        
+      
+         img{
+            max-width: fit-content;
+            max-height: 200px;
+            margin-bottom: 0%;
+            object-fit: cover;
+            border-radius: 2%;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Delicious Menu</h1>
+</header>
+
+<nav>
+    <a href="index.html" target="_blank">Home</a> |
+    <a href="menu.html">Menu</a> |
+    <a href="contact.html" target="_blank">Contact</a>
+</nav>
+
+<section class="menu">
+    <div class="dish">
+        <div class="img">
+        <img src="https://media.istockphoto.com/id/1329213718/photo/vada-pav.webp?b=1&s=170667a&w=0&k=20&c=mg_rqOSDW2-UYk6Tk33NjC6gXIcgQ9SWT1W1LsfTnYs=" alt="Vada-Pav" style="height: fit-content;">
+        </div>
+        <h3>Vada-Pav</h3>
+        <button class="y">Price: ₹25</button>
+    </div>
+    
+
+    <div class="dish">
+        <div class="img">
+        <img src="https://b.zmtcdn.com/data/dish_photos/ab5/dd4f23fc3c44371733ee5f80de477ab5.jpg" alt="Batata-Bhaji-Pav" style="height: 224px;">
+        </div>
+        <h3>Batata-Bhaji-Pav</h3>
+        <button class="y">Price: ₹27</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://dms.mydukaan.io/original/jpeg/master/products/samosa-pav.png" alt="Samosa-Pav" width: 10px;>
+        </div>
+        <h3>Samosa-Pav</h3>
+        <button class="y">Price: ₹30</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://images.pexels.com/photos/17659370/pexels-photo-17659370.jpeg?cs=srgb&dl=pexels-omkitchen-17659370.jpg&fm=jpg" alt="Fakt Vada">
+        </div>
+        <h3>Vada</h3>
+        <button class="y">Price: ₹15</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://media.istockphoto.com/id/848708640/photo/asian-food-vegetarian-samsa-with-tomato-sauce-and-herbs-dark-background.jpg?s=612x612&w=0&k=20&c=bVznPeT3rQPKKx99xfPb-yiVFvWYpML8TGLb3jfZO28=" alt="Fakt Samosa">
+        </div>
+        <h3>Samosa</h3>
+        <button class="y">Price: ₹15</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://t3.ftcdn.net/jpg/03/67/95/04/360_F_367950457_q5L44UUBzQHjAn3D2m6HDePoIfnurDoX.jpg" alt="Misal Pav">
+        </div>
+        <h3>Misal-Pav</h3>
+        <button class="y">Price: ₹50</button>
+    </div>
+    <div class="dish">
+        <img src="https://t3.ftcdn.net/jpg/04/34/68/40/360_F_434684091_9bSqutLyXPweoZoUoYvm3my9IRBtuPJt.jpg" alt="Usal Pav">
+        <h3>Usal-Pav</h3>
+        <button class="y">Price: ₹40</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://s1.dmcdn.net/v/CXQP61MP1HBt6LQWk/x1080" alt="Mixed Bhaji Plate" style="height: 224px;">
+        </div>
+        <h3>Mixed-Plate-Bhaji</h3>
+        <button class="y">Price: ₹25</button>
+    </div>
+    <div class="dish">
+        <img src="https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2019/07/Bread-Pattice-Marathi-01.jpg?fit=1024%2C683&ssl=1" alt="Patties">
+        <h3>Bread Patties</h3>
+        <button class="y">Price: ₹20</button>
+    </div>
+    <div class="dish">
+        <img src="https://e0.pxfuel.com/wallpapers/973/83/desktop-wallpaper-indian-tea-thumbnail.jpg" alt="tea">
+        <h3>Tea</h3>
+        <button class="y">Price: ₹12</button>
+    </div>
+    <div class="dish">
+        <img src="https://thumbs.dreamstime.com/b/hot-tea-pouring-kulhad-earthen-pot-mud-pot-hot-indian-tea-getting-poured-mud-pot-to-mud-glass-217760824.jpg" alt="tea 2">
+        <h3>Kulhad Tea</h3>
+        <button class="y">Price: ₹20</button>
+    </div>
+    <div class="dish">
+        <img src="https://static.toiimg.com/photo/83984343.cms" alt="Punjabi Lassi">
+        <h3>Lassi</h3>
+        <button class="y">Price: ₹20</button>
+    </div>
+    <div class="dish">
+        <img src="https://healthylife.werindia.com/wp-content/uploads/2015/06/Masala-Chaas.jpg" alt="Chhas">
+        <h3>Chhas</h3>
+        <button class="y">Price: ₹20</button>
+    </div>
+    <div class="dish">
+        <img src="https://c1.wallpaperflare.com/preview/661/512/921/coffee-beverage-cup-coffee-cup.jpg" alt="Coffee">
+        <h3>Coffee</h3>
+        <button class="y">Price: ₹20</button>
+    </div>
+
+</section>
+
+<footer>
+    &copy; 2023 Our Hotel. All rights reserved.
+</footer>
+
+</body>
+</html>

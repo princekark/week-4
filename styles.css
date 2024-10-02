@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #ffd700; 
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+section img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home_dish {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.dish {
+    width: 300px;
+    margin: 2%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 8px 8px 5px rgb(86, 81, 81);
+    flex-basis: 25%;
+    transition: transform .3s;
+
+    
+}
+.dish:hover{
+    transform: scale(1.1);
+}
+
+
+ img{
+    max-width: fit-content;
+    max-height: 200px;
+    margin-bottom: 0%;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.x{
+   border-radius: 4px;
+    background-color: #555555;
+    color: white;
+}
